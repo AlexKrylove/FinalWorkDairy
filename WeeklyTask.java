@@ -14,8 +14,7 @@ public class WeeklyTask extends Task{
         long daysBetween = ChronoUnit.DAYS.between(getDateTime().toLocalDate(), date);
         return (daysBetween >= 0 && daysBetween % 7 == 0);
     }
-
-    @Override
+   @Override
     public String toString() {
         return
                 "Еженедельная задача" + "\n" +

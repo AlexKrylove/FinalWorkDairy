@@ -13,10 +13,6 @@ public class DailyTask extends Task {
     public boolean appearsIn(LocalDate date) {
         return date.equals(getDateTime().toLocalDate()) || date.isAfter(getDateTime().toLocalDate());
     }
-
-
-
-
     @Override
     public String toString() {
         return

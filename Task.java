@@ -58,7 +58,6 @@ public abstract class Task {
     public LocalTime getTime() {
         return getDateTime().toLocalTime();
     }
-
     public void setDateTime(String dateTime) throws IncorrectArgumentException {
         boolean check = true;
         try {
