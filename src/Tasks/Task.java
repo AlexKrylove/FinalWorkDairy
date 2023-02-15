@@ -31,7 +31,6 @@ public abstract class Task {
                 " Дата: " + dataTime +
                 " Описание: " + description;
     }
-
     public String getTitle() {
         return title;
     }

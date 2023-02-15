@@ -16,5 +16,4 @@ public class DailyTask extends Task {
         return false;
     }
 
-
 }

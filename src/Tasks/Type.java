@@ -7,5 +7,4 @@ public enum Type {
     Type(String type) {
         this.type = type;
     }
-
 }
