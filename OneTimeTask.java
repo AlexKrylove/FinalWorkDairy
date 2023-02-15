@@ -13,10 +13,6 @@ public class OneTimeTask extends Task {
 
         return Objects.equals(getDateTime().toLocalDate(), date);
     }
-
-
-
-
     @Override
     public String toString() {
         return

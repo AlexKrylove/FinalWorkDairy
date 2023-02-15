@@ -18,8 +18,6 @@ public class TaskService {
             System.out.println();
         }
     }
-
-
     public static void removeTask(int idNum) throws TaskNotFoundException {
         if (setTask.removeIf(i -> i.getId() == idNum)) {
             System.out.println();

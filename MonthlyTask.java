@@ -18,8 +18,6 @@ public class MonthlyTask extends Task{
         return (period.getYears() >= 0 && period.getMonths() >= 0 && period.getDays() == 0);
     }
 
-
-
     @Override
     public String toString() {
         return
